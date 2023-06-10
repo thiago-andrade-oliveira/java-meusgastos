@@ -57,12 +57,12 @@ public class Usuario implements UserDetails{
         this.nome = nome;
     }
 
-    public String getEmaail() {
+    public String getEmail() {
         return email;
     }
 
-    public void setEmaail(String emaail) {
-        this.email = emaail;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getSenha() {

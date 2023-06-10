@@ -3,6 +3,7 @@ Criar uma api para gastos pessoais.
 1º Criar a estrutura do projeto - Ok
 
 2º Planejar o sistema
+    2.0 Relacionamento entre entidades - Ok
     2.1 Controle de usuários (CRUD)
         2.1.1 Criar a autenticação com JWT
     2.2 Criar centros de custo (CRUD)
