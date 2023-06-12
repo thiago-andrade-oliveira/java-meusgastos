@@ -40,7 +40,5 @@ public class UsuarioRequestDto {
 
     public void setFoto(String foto) {
         this.foto = foto;
-    }
-
-
+    }    
 }

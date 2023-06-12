@@ -1,16 +1,16 @@
 package com.example.meusgastos.domain.model;
 
-public class ErroResposta {
+public class ErrorResposta {
+    
+    private String dataHora; 
 
-    private String dataHora;
-
-    private String status;
+    private Integer status;
 
     private String titulo;
 
     private String mensagem;
-
-    public ErroResposta(String dataHora, String status, String titulo, String mensagem) {
+    
+    public ErrorResposta(String dataHora, Integer status, String titulo, String mensagem) {
         this.dataHora = dataHora;
         this.status = status;
         this.titulo = titulo;
@@ -25,11 +25,11 @@ public class ErroResposta {
         this.dataHora = dataHora;
     }
 
-    public String getStatus() {
+    public Integer getStatus() {
         return status;
     }
 
-    public void setStatus(String status) {
+    public void setStatus(Integer status) {
         this.status = status;
     }
 
@@ -48,5 +48,6 @@ public class ErroResposta {
     public void setMensagem(String mensagem) {
         this.mensagem = mensagem;
     }
+
     
 }
